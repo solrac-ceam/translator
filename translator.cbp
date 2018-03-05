@@ -46,6 +46,8 @@
 		<Unit filename="translatorApp.h" />
 		<Unit filename="translatorMain.cpp" />
 		<Unit filename="translatorMain.h" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.hpp" />
 		<Unit filename="wxsmith/translatordialog.wxs" />
 		<Extensions>
 			<code_completion />

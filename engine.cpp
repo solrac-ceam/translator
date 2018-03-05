@@ -90,12 +90,28 @@ void Engine::loadLanguages()
 	langTemp.script          = "";
 	langTemp.translations_of = "";
 	langTemp.definitions_of  = "";
-	langTemp.synonims        = "";
+	langTemp.synonyms        = "";
 	langTemp.examples        = "";
 	langTemp.see_also        = "";
 	langTemp.rtl             = ;
 	languages_.insert(langTemp);
 	*/
+
+	langTemp.name            = " Auto Detect"; // the begin space is to put it on top of the set.
+	langTemp.endonym         = "";
+	langTemp.family          = "";
+	langTemp.iso_1           = "auto";
+	langTemp.iso_2           = "auto";
+	langTemp.iso_3           = "auto";
+	langTemp.glottolog       = "";
+	langTemp.script          = "";
+	langTemp.translations_of = "";
+	langTemp.definitions_of  = "";
+	langTemp.synonyms        = "";
+	langTemp.examples        = "";
+	langTemp.see_also        = "";
+	langTemp.rtl             = false;
+	languages_.insert(langTemp);
 
 	langTemp.name            = "Afrikaans";
 	langTemp.endonym         = "Afrikaans";
